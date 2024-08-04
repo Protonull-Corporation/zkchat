@@ -22,7 +22,8 @@ const config = createConfig(
     appName: "Your App Name",
   }),
 );
-
+// pipelining pending with vercel
+// updates on zkchat done from deployement side
 const queryClient = new QueryClient();
 
 function UserCheck() {
